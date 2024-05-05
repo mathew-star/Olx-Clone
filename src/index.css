@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  padding-bottom: 12rem;
+  box-sizing: inherit;
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
+}
